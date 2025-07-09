@@ -1,0 +1,17 @@
+enum fruits {
+    APPLE,
+    CHERRY,
+    GOA;
+}
+public class Main {
+    public static void main(String[] args) {
+        String str = "Hi pooja";
+        int[] arr = {30,24,16,4,5 };
+        fruits fruit = fruits.CHERRY;
+        System.out.println(fruit);
+        System.out.println(str);
+        for (int member: arr) {
+        System.out.print(member+", ");
+        }
+    }
+}
