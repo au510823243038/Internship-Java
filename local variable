@@ -1,0 +1,15 @@
+public class Main {  
+    public static void main(String[] args)  
+    {  
+        //defining Local Variables  
+        int num = 10;
+        int a = 15;
+        int b = 45;
+        
+        // Division calculation
+        int division = b / a;
+        
+        System.out.println("First Variable: " + num);
+        System.out.println("Division result: " + division);  
+    }  
+}
