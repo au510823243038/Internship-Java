@@ -1,0 +1,23 @@
+class Book {
+    // Defining Instance Variables
+    public String title;
+    public String author;
+    public int publicationYear;
+
+    // Creating a default constructor initializing instance variables
+    public Book() {
+        this.title = "To Kill a Mockingbird";
+        this.author = "Harper Lee";
+        this.publicationYear = 1960;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Object Creation
+        Book myBook = new Book();
+        System.out.println("Book Title: " + myBook.title);
+        System.out.println("Author: " + myBook.author);
+        System.out.println("Publication Year: " + myBook.publicationYear);
+    }
+}
