@@ -1,0 +1,31 @@
+public class Main {      
+public static void main(String args[]){      
+int a=10;
+int b=24;
+int c=6;
+//Ternary operators
+int min=(a<b)?a:b;      
+System.out.println(min);  
+int max = (a > b) ?  (a > c ? a : c) : (b > c ? b : c);  
+System.out.println("The maximum between the three numbers " + a + ", " + b + ", " + c + " " + "is: " + max );
+//Assignment operators
+if((a < b) && (++a < c))  
+System.out.println("if block is executed.");   
+else  
+System.out.println("else block is executed.");   
+System.out.println("The value of a is: " + a);  
+{
+//Logical operators
+a+=6
+System.out.println(a);    
+a-=4;
+System.out.println(a);    
+a*=2;    
+System.out.println(a);    
+a/=2;    
+System.out.println(a);    
+a %= 3;  
+System.out.println(a);    
+}
+}
+}
