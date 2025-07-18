@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Video Example</title>
+  <style>
+    /* Make the video fill the background */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    video.bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg-video" autoplay muted loop>
+    <source src="moon.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+ <center><h1>Welcome to great girigalon magic show</h1></center>
+  <p>This is the main homepage. Use the links below to navigate to subpages.</p>
+    <ul>
+     <center><li><a  href="https://www.cardekho.com/car"><img src="C:\Users\sivar\OneDrive\Pictures\santa.007.jpg" height="180",width="195"></a></li></center>
+      <center><li><a  href="https://www.ktmindia.com/bike"><img src="C:\Users\sivar\OneDrive\Pictures\santa.bike.jpg" height="180", width="320"></a></li></center>
+      <center><li><a  href="https://en.wikipedia.org/wiki/BMW/bmw"><img src="C:\Users\sivar\OneDrive\Pictures\santa.bme.jpg" height="180",width="180"></a></li></center>
+    </ul>
+
+</body>
+</html>
