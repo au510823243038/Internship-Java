@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<HTML>
+<body>
+<h1>Login Page</h1>
+<form action="action_page.php">
+	<label for="uname">user name:</label><br>
+	<input type="text" id="uname" name="uname" value=""><br>
+	<label for="pwd">password:</label><br>
+	<input type="" id="pwd" name="pwd" value=""><br><br>
+	<button>
+  <a href="https://collegedunia.com/college/13523-ganadipathy-tulsis-jain-engineering-college-gtec-vellore"class="button-class">login</a></button>
+</form>
+<img src="C:\Users\sivar\OneDrive\Desktop\HTML\student.jpg">
+<>
+</body>
+</HTML>
+
+<p>if you click this "login" button,the form-data will be sent to a page called "/action_page.php".</p>
