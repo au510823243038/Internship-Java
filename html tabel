@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Details Table</title>
+<style>
+table {
+border-collapse: collapse;
+width: 80%;
+height: 300px;
+}
+th, td {
+border: 2px solid black;
+padding: 10px;
+text-align: center;
+}
+th 
+{
+background-color:red;
+}
+ </style>
+</head>
+<body>
+
+  <h2>Student Details</h2>
+
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>A Number</th>
+      <th>Phone Number</th>	
+      <th>Department</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Arun</td>
+      <td>XXXX XXXX 6787</td>
+      <td>7678978403</td>
+      <td>Computer Science</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Banu</td>
+      <td>XXXX XXXX 8098</td>
+      <td>8796876598</td>
+      <td>Information Tech</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Chitra</td>
+      <td>XXXX XXXX 6575</td>
+      <td>7685989887</td>
+      <td>Electronics</td>
+      <td>78</td>
+    </tr>
+<tr>
+  <td>207</td>
+  <td>thula</td>
+  <td>XXXX XXXX 9897</td>
+  <td>9808858987</td>
+  <td>AI&DS</td>
+  <td>100</td>
+</tr>
+<tr>
+  <td>039</td>
+  <td>pooja</td>
+  <td>XXXX XXXX 8796</td>
+  <td>7685994378</td>
+  <td>AI&DA</td>
+  <td>100</td>
+</tr>
+<tr>
+  <td>054</td>
+  <td>santhosh</td>
+  <td>XXXX XXXX 8654</td>
+  <td>7685976006</td>
+  <td>DME</td>
+  <td>70</td>
+</tr>
+<tr>
+   <td>038</td>
+   <td>ponmozhi</td>
+   <td>XXXX XXXX 9778</td>
+   <td>8787879607</td>
+   <td>CSBS</td>
+   <td>100</td>
+</tr>
+  </table>
+
+</body>
+</html>
