@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Student Registation Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="DOB">Data of birth:</label><br>
+  <input type="DATE" id="DOB" date="DOB" value=""><br><br>
+  <label for="Qualifications">Qualifcations:</label><br>
+  <input  type="text"id="Qualifications" name="Qualifications" value=""><br>
+  <label for="uname">user name:</label><br>
+  <input type="text" id="uname" name="uname" value=""><br><br>
+  <label for="address">address:</label><br>
+  <input type="text" id="address" name="address" value=""><br>
+  <label for="password">password:</label><br>
+  <input type="" id="password" name="pasword" value=""><br>
+  <label for="mob no">Mobile number:</label><br>
+  <input type="num" id="num" name="num" value=""><br><br>
+  <button>
+  <a href="file:///C:/Users/sivar/OneDrive/Desktop/login.html" class="button-class">submit</a></button>
+</form> 
+</body>
+</html>
+
