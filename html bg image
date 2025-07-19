@@ -4,9 +4,9 @@
   <title>TPoint Tech</title>
 </head>
 <body>
-  <center><h1>Welcome to great girigalon magic show</h1></center>
+  <center><h1>Welcom my page</h1></center>
   <p>This is the main homepage. Use the links below to navigate to subpages.</p>
-  <body background="C:\Users\sivar\OneDrive\Desktop\HTML\image file\itchi.jpg">
+  <body background="C:\Users\sivar\OneDrive\Pictures\ME.jpg">
     <ul>
      <center><li><a  href="https://www.cardekho.com/car"><img src="C:\Users\sivar\OneDrive\Pictures\santa.007.jpg" height="180",width="195"></a></li></center>
       <center><li><a  href="https://www.ktmindia.com/bike"><img src="C:\Users\sivar\OneDrive\Pictures\santa.bike.jpg" height="180", width="320"></a></li></center>
