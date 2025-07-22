@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] age = {19, 16, 24, 50, 23};
+
+        for (int i = 0; i < age.length; i++) {
+            if (age[i] > 18) {
+                System.out.println("Age: " + age[i]);
+            }
+        }
+    }
+}
