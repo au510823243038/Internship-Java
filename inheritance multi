@@ -1,15 +1,15 @@
 class bird{  
 void eat(){System.out.println("eating...");}  
 }  
-class Dog extends Animal{  
+class sparrow extends bird{  
 void twit(){System.out.println("twiting...");}  
 }  
-class BabyDog extends Dog{  
+class Babysparrow extends sparrow {  
 void fly(){System.out.println("flying...");}  
 }  
 public class Main{  
 public static void main(String args[]){  
-BabyDog d=new BabyDog();  
+Babysparrow d=new Babysparrow();  
 d.fly();  
 d.twit();  
 d.eat();  
