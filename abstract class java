@@ -1,0 +1,16 @@
+abstract class Bird {
+  abstract void twitter();
+}
+
+class Sparrow extends Bird {
+  void twitter() {
+    System.out.println("sing morning");
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    Bird obj = new Sparrow();
+    obj.twitter();
+  }
+}
