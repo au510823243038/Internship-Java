@@ -1,0 +1,14 @@
+class mani{  
+ float income=40000;  
+}  
+class Programmer extends mani{  
+ int balance=10000;  
+}
+public class Main
+{
+ public static void main(String args[]){  
+   Programmer p=new Programmer();  
+   System.out.println("Programmer income is:"+p.income);  
+   System.out.println("balance of Programmer is:"+p.balance);  
+}  
+}  
