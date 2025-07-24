@@ -1,0 +1,16 @@
+class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+void twit(){System.out.println("twiting...");}  
+}  
+class BabyDog extends Dog{  
+void fly(){System.out.println("flying...");}  
+}  
+public class Main{  
+public static void main(String args[]){  
+BabyDog d=new BabyDog();  
+d.fly();  
+d.twit();  
+d.eat();  
+}}  
