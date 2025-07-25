@@ -1,0 +1,15 @@
+class bird{  
+void eat(){System.out.println("eating...");}  
+}  
+class parrot extends bird{  
+void twit(){System.out.println("twiting...");}  
+}  
+class sparrow extends bird{  
+void fly(){System.out.println("flying...");}  
+}  
+public class Main{  
+public static void main(String args[]){  
+sparrow p=new sparrow();  
+p.fly();  
+p.eat();    
+}}  
