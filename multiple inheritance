@@ -1,0 +1,40 @@
+class Rosemilk {
+    void milk() {
+        System.out.println("Boiling the milk...");
+    }
+}
+
+class Rosewater extends Rosemilk {
+    void mixing() {
+        System.out.println("Recommended level of adding rosewater...");
+    }
+}
+
+class Sugar extends Rosewater {
+    void adding() {
+        System.out.println("Adding sugar...");
+    }
+}
+
+class Ice extends Sugar {
+    void putting() {
+        System.out.println("Putting ice...");
+    }
+}
+
+class Glasses extends Ice {
+    void distributing() {
+        System.out.println("Pouring into glasses...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Glasses glass = new Glasses();
+        glass.milk();           // Inherited from Rosemilk
+        glass.mixing();         // From Rosewater
+        glass.adding();         // From Sugar
+        glass.putting();        // From Ice
+        glass.distributing();   // Its own method
+    }
+}
