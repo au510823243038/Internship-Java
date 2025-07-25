@@ -1,0 +1,33 @@
+class family    
+{    
+public void disp()    
+{    
+System.out.println("family");    
+}    
+}    
+class father extends family    
+{    
+public void disp()    
+{    
+System.out.println("father");    
+}    
+}    
+class mother extends family   
+{    
+public void disp()    
+{    
+System.out.println("mother");    
+}       
+}    
+public class son extends father    
+{    
+public void disp()    
+{    
+System.out.println("son");    
+}    
+public static void main(String args[])    
+{    
+son obj = new son();    
+obj.disp();    
+} 
+}
