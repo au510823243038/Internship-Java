@@ -1,0 +1,31 @@
+class Adder {  
+    static int add(int a, int b) {  
+        return a + b;  
+    }  
+}  
+
+class Subtract {  
+    static int sub(int a, int b) {  
+        return a - b;  
+    }  
+}  
+
+class Multiple {
+    static int multi(int a,int b) {
+        return a * b;
+    }
+}
+
+class Divide {
+    static int div(int a,int b) {
+        return a / b;
+    }
+}
+public class Main {  
+    public static void main(String[] args) {  
+        System.out.println(Adder.add(11, 11));      
+        System.out.println(Subtract.sub(12, 42));
+        System.out.println(Multiple.multi(12, 2));
+        System.out.println(Divide.div(48, 2)); 
+    } 
+}
