@@ -1,0 +1,46 @@
+class Student {      
+    private long reg_no;      
+    private String name, email;      
+    private float Percentage;      
+    
+    public long getReg_no() {      
+        return reg_no;      
+    }      
+    public void setReg_no(long reg_no) {      
+        this.reg_no = reg_no;      
+    }      
+    public String getName() {      
+        return name;      
+    }      
+    public void setName(String name) {      
+        this.name = name;      
+    }      
+    public String getEmail() {      
+        return email;      
+    }      
+    public void setEmail(String email) {      
+        this.email = email;      
+    }      
+    public float getPercentage() {      
+        return Percentage;      
+    }      
+    public void setPercentage(float Percentage) {      
+        this.Percentage = Percentage;      
+    }      
+}      
+
+public class Main {      
+    public static void main(String[] args) {      
+        Student s = new Student();
+      
+        s.setReg_no(510823243004L);      
+        s.setName("Pinke");      
+        s.setEmail("pinkworld@gmail.com");      
+        s.setPercentage(96.0f);
+      
+        System.out.println("Reg No: " + acc.getReg_no());
+        System.out.println("Name: " + acc.getName());
+        System.out.println("Email: " + acc.getEmail());
+        System.out.println("Rank: " + acc.getPercentage());      
+    }      
+}
