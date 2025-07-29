@@ -31,10 +31,10 @@ class Glasses extends Ice {
 public class Main {
     public static void main(String[] args) {
         Glasses glass = new Glasses();
-        glass.milk();           // Inherited from Rosemilk
-        glass.mixing();         // From Rosewater
-        glass.adding();         // From Sugar
-        glass.putting();       From Ice
+        glass.milk();           
+        glass.mixing();         
+        glass.adding();        
+        glass.putting();      
         glass.distributing(); 
     }
 }
