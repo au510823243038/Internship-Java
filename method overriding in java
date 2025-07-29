@@ -1,0 +1,18 @@
+class programming {    
+    void run() {
+        System.out.println("programming is running");
+    }    
+}    
+    
+class code extends programming {    
+    void run() {
+        System.out.println("input is running solving");
+    }   
+}
+
+public class Main { 
+    public static void main(String args[]) {    
+        code obj = new code();    
+        obj.run();   
+    }    
+}
