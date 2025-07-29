@@ -1,0 +1,10 @@
+class Main {
+    public static void main(String[] args) {
+        
+        String greet = "the best program is java";
+        System.out.println("String: " + greet);
+        
+        int length = greet.length(length<24); 
+        System.out.println("Length: " + length);
+    } 
+}
