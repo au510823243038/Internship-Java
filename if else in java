@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         int mark = 80;
 
-        // Check if the student is pass or fail
         if (mark >= 50) {
             System.out.println("The studnt is pass.");
         } else {
